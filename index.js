@@ -1,3 +1,5 @@
 const startServer  =require('ace-collab/lib/server')
 
-startServer()
+const port = process.env.PORT || 3000
+
+startServer(port)
