@@ -11,6 +11,6 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.4.5",
-    "ace-collab": "^0.7.0"
+    "ace-collab": "^0.8.0"
   }
 }
