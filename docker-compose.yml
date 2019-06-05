@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  server-test:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        port: 4444
+        workdir: /usr/src/test
+    ports:
+      - "4444:4444"
