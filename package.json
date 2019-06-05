@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "deploy": "npm i && node index.js"
   },
   "author": "Piotr Bechcicki",
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.4.5",
-    "ace-collab": "^0.8.1"
+    "ace-collab": "^0.8.2"
   }
 }
