@@ -1,13 +1,14 @@
 version: '3'
 
 services:
-  server-test-2:
+  server-test-3:
     build:
       context: .
       dockerfile: Dockerfile
       args:
         allowedOrigins: "['127.0.0.1']"
-        port: 4444
+        appPort: 4444
+        exposePort: 4444
         host: "0.0.0.0"
         workdir: /usr/src/test
     ports:
