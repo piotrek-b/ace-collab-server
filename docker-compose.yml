@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
       args:
-        allowedOrigins: "['127.0.0.1']"
+        allowedOrigins: "[]"
         appPort: 4444
         exposePort: 4444
         host: "0.0.0.0"
