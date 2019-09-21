@@ -11,5 +11,6 @@ services:
         exposePort: 4444
         host: "0.0.0.0"
         workdir: /usr/src/test
+        readOnly: false
     ports:
       - "4444:4444"
