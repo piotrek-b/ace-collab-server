@@ -28,8 +28,8 @@ services:
         host: "0.0.0.0"
          # provide different workdir if needed, this will be used as Dockerfile WORKDIR:
         workdir: /usr/src/test
-         # provide true if the session should be readonly (only admin can modify code, others can view)
-        readOnly: false
+         # provide "true" if the session should be readonly (only admin can modify code, others can view)
+        readOnly: "false"
     ports:
       # provide different port if needed:
       - "4444:4444"

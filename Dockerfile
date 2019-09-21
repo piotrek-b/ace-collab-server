@@ -5,7 +5,7 @@ ARG appPort=3333
 ARG exposePort=3333
 ARG host="0.0.0.0"
 ARG allowedOrigins=[]
-ARG readOnly=false
+ARG readOnly="false"
 
 WORKDIR ${workdir}
 
