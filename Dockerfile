@@ -5,14 +5,12 @@ ARG appPort=3333
 ARG exposePort=3333
 ARG host="0.0.0.0"
 ARG allowedOrigins=[]
-ARG readOnly="false"
 
 WORKDIR ${workdir}
 
 ENV ALLOWED_ORIGINS=${allowedOrigins}
 ENV HOST=${host}
 ENV PORT=${appPort}
-ENV READ_ONLY=${readOnly}
 
 COPY package*.json ./
 
